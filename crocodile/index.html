@@ -27,74 +27,71 @@
     function draw() {
         background("white");
         
-        var Fenrir = makeTurtle(140,100);
-        Fenrir.setColor("black");
+        var Fenrir = makeTurtle(50,100);
+        Fenrir.setColor("green");
         Fenrir.penDown();
         
-        Fenrir.left(90);
-        for(var i=0; i<1; i++){
-            for(var j=0; j<181; j++
-            ){
-                Fenrir.penDown();
-                Fenrir.forward(1);
-                Fenrir.right(1);
-            };
-        }; // head
-        Fenrir.left(5);
-        Fenrir.forward(15);
-        Fenrir.left(15);
-        Fenrir.forward(170); // back
-        Fenrir.left(15);
-        Fenrir.forward(100);
-        Fenrir.right(45);
-        Fenrir.forward(5);
-        Fenrir.right(45);
-        Fenrir.forward(5);
-        Fenrir.left(45);
-        Fenrir.forward(5);
-        Fenrir.right(45);
-        Fenrir.forward(5);
-        Fenrir.left(45);
-        Fenrir.forward(5);
-        Fenrir.right(45);
-        Fenrir.forward(5);
-        Fenrir.left(45);
-        Fenrir.forward(5);
-        Fenrir.right(45);
-        Fenrir.forward(5);
-        Fenrir.right(90);
-        Fenrir.forward(100); // tail
-        Fenrir.left(50);
-        for(var i=0; i<1; i++){
-            for(var j=0; j<71; j++
-            ){
-                Fenrir.penDown();
-                Fenrir.forward(3);
-                Fenrir.right(1);
-            };
-        }; // belly
-        Fenrir.right(13);
-        Fenrir.forward(76); // neck?
         Fenrir.left(60);
         Fenrir.forward(20);
-        Fenrir.right(120);
-        Fenrir.forward(25);// beak
-        Fenrir.penUp();
-        Fenrir.goto(170,170);
-        Fenrir.right(15);
-        Fenrir.penDown();
-        Fenrir.forward(70);
-        Fenrir.right(75);
-        Fenrir.forward(145);
-        Fenrir.right(127);
+        Fenrir.right(90);
+        Fenrir.forward(100);
+        Fenrir.left(30);
+        Fenrir.forward(20);
+        Fenrir.left(90);
+        Fenrir.forward(5);
+        Fenrir.right(45);
+        Fenrir.forward(10);
+        Fenrir.right(90);
+        Fenrir.forward(10);
+        Fenrir.right(45);
+        Fenrir.forward(5);
+        Fenrir.left(90);
+        Fenrir.forward(30); // head
+        Fenrir.right(10);
+        Fenrir.forward(50);
+        Fenrir.left(10);
+        Fenrir.forward(200); // back
         for(var i=0; i<1; i++){
-            for(var j=0; j<62; j++
-            ){
-                Fenrir.penDown();
-                Fenrir.forward(3);
+            for(var j=0; j<180; j++){
+                Fenrir.forward(2);
                 Fenrir.right(1);
             };
-        };// wing
+        };
+        Fenrir.right(170);
+        for(var i=0; i<1; i++){
+            for(var j=0; j<180; j++){
+                Fenrir.forward(1.5);
+                Fenrir.left(1);
+            };
+        }; // tail
+        Fenrir.left(39);
+        Fenrir.forward(30);
+        Fenrir.right(49);
+        Fenrir.forward(40);
+        Fenrir.right(170);
+        Fenrir.forward(20);
+        Fenrir.left(90);
+        Fenrir.forward(20); //leg
+        Fenrir.left(80);
+        Fenrir.forward(150); //belly
+        Fenrir.left(50);
+        Fenrir.forward(30);
+        Fenrir.right(49);
+        Fenrir.forward(40);
+        Fenrir.right(170);
+        Fenrir.forward(20);
+        Fenrir.left(90);
+        Fenrir.forward(20); //leg pt. 2
+        Fenrir.left(60);
+        Fenrir.forward(50);
+        Fenrir.left(10);
+        Fenrir.forward(110);
+        Fenrir.right(90);
+        Fenrir.forward(20);
+        Fenrir.right(90);
+        Fenrir.forward(90);
+        Fenrir.left(152.5);
+        Fenrir.forward(103); // head pt. 2
     };
 
 
