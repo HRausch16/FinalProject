@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Author: Hannah Rausch
+    Project: Final Project
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Crocodile</title>
+    <link rel='stylesheet' href='index.css'>
+</head>
+
+<body>
+ 
+
+    
+
+
+<script src="p5.js"></script>
+<script src="sketch.js"></script>
+<script>
+    function setup() {
+    createCanvas(600,400);
+    }
+
+
+    function draw() {
+        background("white");
+        
+        var Fenrir = makeTurtle(140,100);
+        Fenrir.setColor("black");
+        Fenrir.penDown();
+        
+        Fenrir.left(90);
+        for(var i=0; i<1; i++){
+            for(var j=0; j<181; j++
+            ){
+                Fenrir.penDown();
+                Fenrir.forward(1);
+                Fenrir.right(1);
+            };
+        }; // head
+        Fenrir.left(5);
+        Fenrir.forward(15);
+        Fenrir.left(15);
+        Fenrir.forward(170); // back
+        Fenrir.left(15);
+        Fenrir.forward(100);
+        Fenrir.right(45);
+        Fenrir.forward(5);
+        Fenrir.right(45);
+        Fenrir.forward(5);
+        Fenrir.left(45);
+        Fenrir.forward(5);
+        Fenrir.right(45);
+        Fenrir.forward(5);
+        Fenrir.left(45);
+        Fenrir.forward(5);
+        Fenrir.right(45);
+        Fenrir.forward(5);
+        Fenrir.left(45);
+        Fenrir.forward(5);
+        Fenrir.right(45);
+        Fenrir.forward(5);
+        Fenrir.right(90);
+        Fenrir.forward(100); // tail
+        Fenrir.left(50);
+        for(var i=0; i<1; i++){
+            for(var j=0; j<71; j++
+            ){
+                Fenrir.penDown();
+                Fenrir.forward(3);
+                Fenrir.right(1);
+            };
+        }; // belly
+        Fenrir.right(13);
+        Fenrir.forward(76); // neck?
+        Fenrir.left(60);
+        Fenrir.forward(20);
+        Fenrir.right(120);
+        Fenrir.forward(25);// beak
+        Fenrir.penUp();
+        Fenrir.goto(170,170);
+        Fenrir.right(15);
+        Fenrir.penDown();
+        Fenrir.forward(70);
+        Fenrir.right(75);
+        Fenrir.forward(145);
+        Fenrir.right(127);
+        for(var i=0; i<1; i++){
+            for(var j=0; j<62; j++
+            ){
+                Fenrir.penDown();
+                Fenrir.forward(3);
+                Fenrir.right(1);
+            };
+        };// wing
+    };
+
+
+</script>
+
+</body>
+</html>

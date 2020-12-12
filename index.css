@@ -2,6 +2,21 @@ body {
     background-color: #d6e6ff;
 }
 
+.column {
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.center {
+    margin: auto;
+    padding: 30px;
+    width: 70%;
+}
+
 h1 {
     font-family: '';
     color: #2e00a3;

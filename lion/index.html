@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Author: Hannah Rausch
+    Project: Final Project
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Lion</title>
+    <link rel='stylesheet' href='index.css'>
+</head>
+
+<body>
+ 
+
+    
+
+
+<script src="p5.js"></script>
+<script src="sketch.js"></script>
+<script>
+    function setup() {
+    createCanvas(600,600);
+    }
+
+
+    function draw() {
+        //background("white");
+        
+        var Fenrir = makeTurtle(650,300);
+        Fenrir.setColor("yellow");
+        
+        Fenrir.penUp();
+        Fenrir.right(90);
+        for(var i=0; i<1; i++){
+            for(var j=0; j<181; j++){
+                Fenrir.forward(2);
+                Fenrir.right(1);
+            };
+        };
+        Fenrir.left(1);
+        Fenrir.penDown();
+        for(var i=0; i<1; i++){
+            for(var j=0; j<181; j++){
+                Fenrir.forward(2);
+                Fenrir.left(1);
+            };
+        }; 
+        Fenrir.right(1);
+        Fenrir.forward(20);
+        Fenrir.left(30);
+        Fenrir.forward(85);
+        Fenrir.right(30);
+        for(var i=0; i<1; i++){
+            for(var j=0; j<181; j++){
+                Fenrir.forward(1.26);
+                Fenrir.left(1);
+            };
+        };
+        Fenrir.right(31);
+        Fenrir.forward(85);
+        Fenrir.left(30);
+        Fenrir.forward(20); // inner face
+        Fenrir.setColor("orange");
+        Fenrir.right(90);
+        Fenrir.penUp();
+        Fenrir.forward(85);
+        Fenrir.left(90);
+        Fenrir.penDown();
+        for(var i=0; i<1; i++){
+            for(var j=0; j<181; j++){
+                Fenrir.forward(3.5);
+                Fenrir.left(1);
+            };
+        };
+        Fenrir.right(1);
+        Fenrir.left(15);
+        Fenrir.forward(132.125);
+        for(var i=0; i<1; i++){
+            for(var j=0; j<151; j++){
+                Fenrir.forward(3);
+                Fenrir.left(1);
+            };
+        }; 
+        Fenrir.right(1);
+        Fenrir.forward(132.125); // mane
+        Fenrir.left(105);
+        Fenrir.penUp();
+        Fenrir.forward(80);
+        Fenrir.right(90);
+        Fenrir.forward(80);
+        Fenrir.right(45);
+        Fenrir.penDown();
+        Fenrir.setColor("yellow");
+        for(var i=0; i<1; i++){
+            for(var j=0; j<181; j++){
+                Fenrir.forward(0.5);
+                Fenrir.left(1);
+            };
+        };
+        Fenrir.penUp();
+        Fenrir.right(1);
+        Fenrir.right(45);
+        Fenrir.forward(160);
+        Fenrir.right(45);
+        Fenrir.penDown();
+        for(var i=0; i<1; i++){
+            for(var j=0; j<181; j++){
+                Fenrir.forward(0.5);
+                Fenrir.left(1);
+            };
+        }; // ears
+    };
+
+
+</script>
+
+</body>
+</html>
