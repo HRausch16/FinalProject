@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Author: Hannah Rausch
+    Project: Final Project
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Cat</title>
+    <link rel='stylesheet' href='index.css'>
+</head>
+
+<body>
+ 
+
+    
+
+
+<script src="p5.js"></script>
+<script src="sketch.js"></script>
+<script>
+    function setup() {
+    createCanvas(600,400);
+    }
+
+
+    function draw() {
+        background("grey");
+        
+        var Fenrir = makeTurtle(150,150);
+        Fenrir.setColor("black");
+        Fenrir.penDown();
+        
+        Fenrir.left(90);
+        for(var i=0; i<1; i++){
+            for(var j=0; j<361; j++
+            ){
+                Fenrir.penDown();
+                Fenrir.forward(1);
+                Fenrir.right(1);
+            };
+        }; // head
+        Fenrir.penUp();
+        for(var i=0; i<1; i++){
+            for(var j=0; j<11; j++
+            ){
+                Fenrir.forward(1);
+                Fenrir.right(1);
+            };
+        };
+        Fenrir.penDown();
+        Fenrir.left(1);
+        Fenrir.forward(75);
+        Fenrir.right(150);
+        Fenrir.forward(38);
+        Fenrir.left(101); 
+        Fenrir.penUp();
+        for(var i=0; i<1; i++){
+            for(var j=0; j<63; j++
+            ){
+                Fenrir.forward(1);
+                Fenrir.right(1);
+            };
+        };
+        Fenrir.left(103);
+        Fenrir.penDown();
+        Fenrir.forward(38);
+        Fenrir.right(150);
+        Fenrir.forward(75);// ears
+        Fenrir.penUp();
+        Fenrir.goto(170,194);
+        Fenrir.penDown();
+        Fenrir.right(30);
+        Fenrir.forward(100);
+        Fenrir.right(90);
+        for(var i=0; i<1; i++){
+            for(var j=0; j<191; j++
+            ){
+                Fenrir.forward(0.5);
+                Fenrir.left(1);
+            };
+        };
+        Fenrir.penUp();
+        for(var i=0; i<1; i++){
+            for(var j=0; j<91; j++
+            ){
+                Fenrir.forward(.5);
+                Fenrir.left(1);
+            };
+        };
+        Fenrir.penDown();
+        for(var i=0; i<1; i++){
+            for(var j=0; j<80; j++
+            ){
+                Fenrir.forward(.5);
+                Fenrir.left(1);
+            };
+        };
+        Fenrir.penUp();
+        for(var i=0; i<1; i++){
+            for(var j=0; j<191; j++
+            ){
+                Fenrir.forward(.5);
+                Fenrir.left(1);
+            };
+        };
+        Fenrir.penDown();
+        Fenrir.right(90);
+        for(var i=0; i<1; i++){
+            for(var j=0; j<361; j++
+            ){
+                Fenrir.forward(0.5);
+                Fenrir.left(1);
+            };
+        };
+        Fenrir.penUp();
+        Fenrir.penUp();
+        for(var i=0; i<1; i++){
+            for(var j=0; j<261; j++
+            ){
+                Fenrir.forward(0.5);
+                Fenrir.left(1);
+            };
+        };
+        Fenrir.right(91);
+        Fenrir.penDown();
+        Fenrir.forward(70);
+        Fenrir.penUp();
+        Fenrir.right(90);
+        Fenrir.forward(29);
+        Fenrir.right(90);
+        Fenrir.penDown();
+        Fenrir.forward(100); // left legs
+        Fenrir.left(90);
+        for(var i=0; i<1; i++){
+            for(var j=0; j<31; j++
+            ){
+                Fenrir.forward(3);
+                Fenrir.left(1);
+            };
+        };// butt?
+        Fenrir.right(90);
+        for(var i=0; i<1; i++){
+            for(var j=0; j<361; j++
+            ){
+                Fenrir.forward(0.5);
+                Fenrir.left(1);
+            };
+        };
+        Fenrir.right(181);
+        Fenrir.forward(100);
+        Fenrir.right(90);
+        Fenrir.penUp();
+        Fenrir.forward(29);
+        Fenrir.right(90);
+        Fenrir.penDown();
+        Fenrir.forward(71);
+        Fenrir.left(76);
+        Fenrir.penUp();
+        for(var i=0; i<1; i++){
+            for(var j=0; j<11; j++){
+                Fenrir.forward(0.5);
+                Fenrir.left(1);
+            };
+        };
+        Fenrir.penDown();
+        Fenrir.left(90);
+        for(var i=0; i<1; i++){
+            for(var j=0; j<280; j++){
+                Fenrir.forward(0.5);
+                Fenrir.right(1);
+            };
+        };
+        Fenrir.penUp();
+        for(var i=0; i<1; i++){
+            for(var j=0; j<156; j++){
+                Fenrir.forward(0.5);
+                Fenrir.right(1);
+            };
+        };
+        Fenrir.left(90);
+        Fenrir.penDown();
+        Fenrir.forward(124); // right legs
+        Fenrir.penUp();
+        Fenrir.right(180);
+        Fenrir.forward(115);
+        Fenrir.left(90);
+        Fenrir.penDown();
+        for(var i=0; i<1; i++){
+            for(var j=0; j<46; j++){
+                Fenrir.forward(1);
+                Fenrir.left(1);
+            };
+        };
+        for(var i=0; i<1; i++){
+            for(var j=0; j<46; j++){
+                Fenrir.forward(1);
+                Fenrir.right(1);
+            };
+        };
+        for(var i=0; i<1; i++){
+            for(var j=0; j<46; j++){
+                Fenrir.forward(1);
+                Fenrir.left(1);
+            };
+        };
+        for(var i=0; i<1; i++){
+            for(var j=0; j<46; j++){
+                Fenrir.forward(1);
+                Fenrir.right(1);
+            };
+        };
+        for(var i=0; i<1; i++){
+            for(var j=0; j<181; j++){
+                Fenrir.forward(.25);
+                Fenrir.left(1);
+            };
+        };
+        for(var i=0; i<1; i++){
+            for(var j=0; j<46; j++){
+                Fenrir.forward(1);
+                Fenrir.left(1);
+            };
+        };
+        for(var i=0; i<1; i++){
+            for(var j=0; j<46; j++){
+                Fenrir.forward(1);
+                Fenrir.right(1);
+            };
+        };
+        for(var i=0; i<1; i++){
+            for(var j=0; j<46; j++){
+                Fenrir.forward(1);
+                Fenrir.left(1);
+            };
+        };
+        for(var i=0; i<1; i++){
+            for(var j=0; j<46; j++){
+                Fenrir.forward(1);
+                Fenrir.right(1);
+            };
+        };
+        Fenrir.forward(1);// tail
+        
+    };
+
+
+</script>
+
+</body>
+</html>
