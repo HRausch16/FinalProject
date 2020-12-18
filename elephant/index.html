@@ -7,97 +7,106 @@
 <head>
     <meta charset="UTF-8">
     <title>Elephant</title>
-    <link rel='stylesheet' href='index.css'>
 </head>
 
 <body>
  
-
-    
-
-
 <script src="p5.js"></script>
 <script src="sketch.js"></script>
 <script>
     function setup() {
-    createCanvas(600,400);
+    createCanvas(600,600);
     }
 
 
     function draw() {
-        background("white");
+        background("green");
         
-        var Fenrir = makeTurtle(140,100);
-        Fenrir.setColor("black");
+        var Fenrir = makeTurtle(650,300);
+        Fenrir.setColor("gray");
+        
+        Fenrir.penUp();
+        Fenrir.right(90);
+        for(var i=0; i<1; i++){
+            for(var j=0; j<181; j++){
+                Fenrir.forward(2);
+                Fenrir.right(1);
+            };
+        };
+        Fenrir.left(1);
         Fenrir.penDown();
-        
+        for(var i=0; i<1; i++){
+            for(var j=0; j<181; j++){
+                Fenrir.forward(2);
+                Fenrir.left(1);
+            };
+        }; 
+        Fenrir.right(1);
+        Fenrir.right(175);
+        Fenrir.forward(50);
+        Fenrir.penDown();
+        for(var i=0; i<1; i++){
+            for(var j=0; j<231; j++){
+                Fenrir.forward(1);
+                Fenrir.left(.5);
+            };
+        }; 
+        Fenrir.right(.5);
+        Fenrir.left(55);
+        Fenrir.forward(100);
+        Fenrir.left(20);
+        Fenrir.forward(150);
+        Fenrir.left(55);
+        for(var i=0; i<1; i++){
+            for(var j=0; j<101; j++){
+                Fenrir.forward(1);
+                Fenrir.left(.5);
+            };
+        }; 
+        Fenrir.right(.5);
+        Fenrir.forward(60);
+        Fenrir.right(80);
+        Fenrir.forward(90);
+        Fenrir.right(39);
+        Fenrir.forward(10);
+        for(var i=0; i<1; i++){
+            for(var j=0; j<46; j++){
+                Fenrir.forward(2);
+                Fenrir.left(1);
+            };
+        };
+        for(var i=0; i<1; i++){
+            for(var j=0; j<46; j++){
+                Fenrir.forward(2);
+                Fenrir.right(1);
+            };
+        };
+        Fenrir.left(1);
+        Fenrir.left(80);
+        Fenrir.forward(50);
         Fenrir.left(90);
         for(var i=0; i<1; i++){
-            for(var j=0; j<181; j++
-            ){
-                Fenrir.penDown();
-                Fenrir.forward(1);
-                Fenrir.right(1);
+            for(var j=0; j<46; j++){
+                Fenrir.forward(2);
+                Fenrir.left(1);
             };
-        }; // head
-        Fenrir.left(5);
-        Fenrir.forward(15);
-        Fenrir.left(15);
-        Fenrir.forward(170); // back
-        Fenrir.left(15);
-        Fenrir.forward(100);
-        Fenrir.right(45);
-        Fenrir.forward(5);
-        Fenrir.right(45);
-        Fenrir.forward(5);
-        Fenrir.left(45);
-        Fenrir.forward(5);
-        Fenrir.right(45);
-        Fenrir.forward(5);
-        Fenrir.left(45);
-        Fenrir.forward(5);
-        Fenrir.right(45);
-        Fenrir.forward(5);
-        Fenrir.left(45);
-        Fenrir.forward(5);
-        Fenrir.right(45);
-        Fenrir.forward(5);
-        Fenrir.right(90);
-        Fenrir.forward(100); // tail
-        Fenrir.left(50);
+        };
         for(var i=0; i<1; i++){
-            for(var j=0; j<71; j++
-            ){
-                Fenrir.penDown();
-                Fenrir.forward(3);
+            for(var j=0; j<46; j++){
+                Fenrir.forward(2);
                 Fenrir.right(1);
             };
-        }; // belly
-        Fenrir.right(13);
-        Fenrir.forward(76); // neck?
-        Fenrir.left(60);
-        Fenrir.forward(20);
-        Fenrir.right(120);
-        Fenrir.forward(25);// beak
-        Fenrir.penUp();
-        Fenrir.goto(170,170);
-        Fenrir.right(15);
-        Fenrir.penDown();
-        Fenrir.forward(70);
-        Fenrir.right(75);
-        Fenrir.forward(145);
-        Fenrir.right(127);
-        for(var i=0; i<1; i++){
-            for(var j=0; j<62; j++
-            ){
-                Fenrir.penDown();
-                Fenrir.forward(3);
-                Fenrir.right(1);
-            };
-        };// wing
+        };
+        Fenrir.forward(10);
+        Fenrir.right(39);
+        Fenrir.forward(90);
+        Fenrir.right(80);
+        Fenrir.forward(60);
+        Fenrir.right(.5);
     };
-
-
+     
+        
+        
 </script>
 
 </body>

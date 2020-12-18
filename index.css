@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
 body {
-    background-color: #d6e6ff;
+    background-color: #a7ff9b;
 }
 
 .column {
@@ -18,25 +20,25 @@ body {
 }
 
 h1 {
-    font-family: '';
-    color: #2e00a3;
+    font-family: 'Bangers';
+    color: #00a308;
     text-align: center;
 }
 
 h2 {
-    font-family: '';
-    color: #2e00a3;
+    font-family: 'Bangers';
+    color: #00a308;
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 button {
-    font-family: '';
+    font-family: 'Bangers';
     font-size: 16px;
-    background-color: #69a3ff; 
+    background-color: #5dff6a; 
     padding: 15px 32px;
     text-align: center;
-    color: #2e00a3;
+    color: #00a308;
     cursor: pointer; 
 }
